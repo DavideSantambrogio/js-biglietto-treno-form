@@ -7,7 +7,33 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <section class="module">
+        <div class="input-name">
+            <label for="name">Nome utente</label>
+            <input type="text" id="name">
+        </div>
+
+        <div class="input-km">
+            <label for="km">Km da percorrere</label>
+            <input type="text" id="km">
+        </div>
+
+        <div class="input-age">
+            <label for="color">Fascio di età</label>
+            <select id="color">
+                <option value=""></option>
+                <option value="maggiorenne">Maggiorenne</option>
+                <option value="minorenne">Minorenne</option>
+                <option value="anziano">Anziano</option>
+            </select>
+        </div>
+
+        <div class="buttons">
+            <button id="send">Genera</button>
+            <button id="clear">Annulla</button>
+        </div>
+    </section>
+   
 
     <script src="js/script.js"></script>
 </body>
